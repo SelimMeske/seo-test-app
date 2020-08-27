@@ -13,7 +13,7 @@ import { PageOneComponent } from './page-one/page-one.component';
     PageOneComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],
